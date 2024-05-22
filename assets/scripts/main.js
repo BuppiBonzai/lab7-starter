@@ -68,7 +68,7 @@ function saveRecipesToStorage(recipes) {
 	//            be no more than a few lines.
 	//console.log(recipes);
 	let array = getRecipesFromStorage();
-	console.log(array);
+	//console.log(array);
 	for (const x of recipes) {
 		array.push(x);
 	}
